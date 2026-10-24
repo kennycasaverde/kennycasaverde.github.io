@@ -1,42 +1,35 @@
-/*
-  ARCHIVO DE CONTENIDO — PORTAFOLIO KENNY V1.0
-  Edita aquí textos y agrega evidencias siguiendo README.md.
-  No elimines comas, llaves o corchetes sin revisar la sintaxis.
-*/
 window.PORTFOLIO_DATA = {
   profile: {
     name: "Kenny Alexis Casaverde Sosa",
     email: "kennycasaverde@gmail.com",
     linkedin: "https://www.linkedin.com/in/kennycasaverde/",
     youtube: "https://www.youtube.com/@KennyCasaverde",
-    companiesUrl: "", // PON AQUÍ EL LINK DE "EMPRESAS" CUANDO LO TENGAS.
+    companiesUrl: "", // por colocar
     cvFile: "assets/CV_Kenny_Casaverde_Publico.pdf"
   },
 
   experiences: [
     {
-      id: "chancay",
+      id: "utopilot",
       position: "Gestor de Flota",
-      organization: "Equipo de Ingeniería Internacional Suramérica S.A.C.",
+      organization: "Equipo de Ingeniería Internacional Suramérica S.A.C. | UTOPILOT PERU S.A.C.",
       context: "Centro de Control · Terminal Portuario de Chancay",
       period: "Octubre 2025 — Actualidad",
       dateFrom: "2025-10",
       current: true,
       summary: "Supervisión de vehículos autónomos y coordinación de incidencias técnicas y operativas en un entorno portuario automatizado.",
       responsibilities: [
-        "Supervisión y monitoreo en tiempo real de vehículos autónomos (DCV / stackers) mediante FMS y VMP.",
-        "Conducción remota de vehículos autónomos para atender problemas de tránsito.",
+        "Supervisión y monitoreo en tiempo real de vehículos autónomos (DCV) mediante software especializado FMS y VMP.",
+        "Supervisión de tareas automatizadas mediante sistema CTOS perteneciente a COSCO SHIPPING.",
+        "Conducción remota de vehículos autónomo para atender problemas de tránsito.",
         "Seguimiento, diagnóstico y gestión de incidencias técnicas y operativas.",
         "Identificación y aislamiento de fallas de hardware y software; priorización y escalamiento de problemas.",
         "Coordinación con las áreas operativas y los equipos de soporte en campo."
       ],
       achievement: "Coordinación de la resolución de bloqueos de tránsito ocasionados por fallas técnicas imprevistas, junto con el equipo de soporte en campo.",
-      tags: ["FMS / VMP", "DCV", "Diagnóstico técnico", "Operaciones automatizadas"],
+      tags: ["FMS", "VMP", "CTOS from Cosco Shipping", "Diagnóstico técnico", "Operaciones automatizadas"],
       evidence: [
-        // EJEMPLOS (NO PUBLICADOS): descomenta y reemplaza con TUS ARCHIVOS AUTORIZADOS.
-        // {type: "image", src: "assets/evidencias/chancay/imagen-01.jpg", title: "Actividad profesional", description: "Descripción sin datos internos"},
-        // {type: "youtube", url: "https://www.youtube.com/watch?v=ID_DEL_VIDEO", title: "Demostración autorizada"},
-        // {type: "pdf", src: "assets/evidencias/chancay/constancia.pdf", title: "Constancia laboral"}
+        // por añadir imágenes y evidencias
       ]
     },
     {
@@ -57,7 +50,6 @@ window.PORTFOLIO_DATA = {
       achievement: "Participación en la captación de clientes y el desarrollo comercial de equipos especializados.",
       tags: ["Equipos topográficos", "Licitaciones", "Ventas B2B", "Gestión comercial"],
       evidence: [
-        // {type: "image", src: "assets/evidencias/geoingenieros/evento.jpg", title: "Participación en actividad comercial"}
       ]
     },
     {
@@ -77,7 +69,6 @@ window.PORTFOLIO_DATA = {
       achievement: "Experiencia práctica en procesos de producción, control de materiales y estándares de seguridad.",
       tags: ["Manufactura", "Control de calidad", "Extrusión", "Seguridad industrial"],
       evidence: [
-        // {type: "image", src: "assets/evidencias/artesco/produccion.jpg", title: "Actividad de producción"}
       ]
     }
   ],
@@ -99,21 +90,19 @@ window.PORTFOLIO_DATA = {
     },
     {
       label: "Idiomas",
-      title: "Inglés intermedio",
+      title: "Inglés",
       institution: "Centro de Idiomas USMP",
       period: "2019",
-      description: "Estudios de inglés de nivel intermedio."
+      description: "Estudios de inglés en la Universidad San Martín de Porres."
     }
   ],
 
   skills: [
-    {title: "Operaciones y sistemas", items: ["Monitoreo de flotas", "FMS y VMP", "Vehículos autónomos DCV", "Diagnóstico de incidencias"]},
-    {title: "Electrónica y programación", items: ["Microcontroladores", "Programación", "Circuitos DC/AC", "Lógica digital"]},
+    {title: "Operaciones y sistemas", items: ["Monitoreo de flotas", "FMS, VMP y CTOS", "Vehículos autónomos DCV", "Diagnóstico de incidencias"]},
+{title: "Electrónica y programación", items: ["Microcontroladores", "Programación", "Circuitos DC/AC", "Lógica digital"]},
     {title: "Gestión profesional", items: ["Excel avanzado", "Coordinación operativa", "Resolución de problemas", "Trabajo interdisciplinario"]}
   ],
 
   certifications: [
-    // AGREGA AQUÍ CERTIFICADOS CONFIRMADOS, CON ARCHIVO O ENLACE DE VALIDACIÓN.
-    // {title: "Nombre del certificado", issuer: "Institución", year: "2026", url: "assets/certificados/certificado.pdf"}
-  ]
+   ]
 };
