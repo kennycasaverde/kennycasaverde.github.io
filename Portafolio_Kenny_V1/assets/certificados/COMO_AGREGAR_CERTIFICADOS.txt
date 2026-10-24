@@ -1,0 +1,2 @@
+Guarda aqui los certificados que tengas autorizacion para publicar.
+Agregalos a certifications en data.js siguiendo README.md.
